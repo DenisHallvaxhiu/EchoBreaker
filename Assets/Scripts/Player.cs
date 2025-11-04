@@ -5,7 +5,10 @@ public class Player : MonoBehaviour {
     public static Player Instance { get; private set; }
 
     [SerializeField] private GameInput gameInput;
-    [SerializeField] private float MoveSpeed = 7f;
+
+    [Header("Movement")]
+    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float dashDistance = 100f;
 
     private bool canMove = true;
 
@@ -15,12 +18,15 @@ public class Player : MonoBehaviour {
 
     private void Start() {
         gameInput.OnDashAction += GameInput_OnDashAction;
+        gameInput.OnAttackAction += GameInput_OnAttackAction;
+    }
+
+    private void GameInput_OnAttackAction(object sender,System.EventArgs e) {
+        Debug.Log("ATTACKKKKK");
     }
 
     private void GameInput_OnDashAction(object sender,System.EventArgs e) {
-
-        Debug.Log("Dashed");
-
+        HandleDash();
     }
 
     private void Update() {
@@ -31,9 +37,17 @@ public class Player : MonoBehaviour {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x,inputVector.y,0f);
 
-        float moveDistance = MoveSpeed * Time.deltaTime;
+        float moveDistance = moveSpeed * Time.deltaTime;
         if(canMove) {
             transform.position += moveDir * moveDistance;
+        }
+    }
+    private void HandleDash() {
+        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
+        Vector3 moveDir = new Vector3(inputVector.x,inputVector.y,0f);
+
+        if(canMove) {
+            transform.position += moveDir * (dashDistance * Time.deltaTime);
         }
     }
 }

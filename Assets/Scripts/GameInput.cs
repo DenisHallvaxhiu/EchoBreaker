@@ -5,6 +5,7 @@ public class GameInput : MonoBehaviour {
 
     public static GameInput Instance { get; private set; }
     public event EventHandler OnDashAction;
+    public event EventHandler OnAttackAction;
 
     public enum Binding {
         Move_Up,
@@ -21,6 +22,11 @@ public class GameInput : MonoBehaviour {
         playerInput = new PlayerInput();
         playerInput.Player.Enable();
         playerInput.Player.Dash.performed += Dash_performed;
+        playerInput.Player.Attack.performed += Attack_performed;
+    }
+
+    private void Attack_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
+        OnAttackAction?.Invoke(this,EventArgs.Empty);
     }
 
     private void Dash_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
