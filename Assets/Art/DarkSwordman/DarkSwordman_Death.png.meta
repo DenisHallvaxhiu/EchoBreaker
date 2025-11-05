@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 6f6a184d946a43a49ac3b4182b149039
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8361878033835660646
+    second: DarkSwordman_Death_0
+  - first:
+      213: -6862359420077781053
+    second: DarkSwordman_Death_1
+  - first:
+      213: 7556726932970858828
+    second: DarkSwordman_Death_2
+  - first:
+      213: 4171269148129589629
+    second: DarkSwordman_Death_3
+  - first:
+      213: -6079482444760769326
+    second: DarkSwordman_Death_4
+  - first:
+      213: -8524599706157809835
+    second: DarkSwordman_Death_5
+  - first:
+      213: 7638455343951226974
+    second: DarkSwordman_Death_6
+  - first:
+      213: -5004564311315089469
+    second: DarkSwordman_Death_7
+  - first:
+      213: -7365592116381358315
+    second: DarkSwordman_Death_8
+  - first:
+      213: -3158705785213448921
+    second: DarkSwordman_Death_9
+  - first:
+      213: 594051984171835833
+    second: DarkSwordman_Death_10
+  - first:
+      213: -1818974090634901716
+    second: DarkSwordman_Death_11
+  - first:
+      213: -996278415585549147
+    second: DarkSwordman_Death_12
+  - first:
+      213: -8128759250406455819
+    second: DarkSwordman_Death_13
+  - first:
+      213: 6038286936011384566
+    second: DarkSwordman_Death_14
+  - first:
+      213: 3026766812992182471
+    second: DarkSwordman_Death_15
+  - first:
+      213: 7114494114397022353
+    second: DarkSwordman_Death_16
+  - first:
+      213: -8254281090396345054
+    second: DarkSwordman_Death_17
+  - first:
+      213: 3250388149063354846
+    second: DarkSwordman_Death_18
+  - first:
+      213: 3203023529363104006
+    second: DarkSwordman_Death_19
+  - first:
+      213: 6989866794014911890
+    second: DarkSwordman_Death_20
+  - first:
+      213: -549124217102344709
+    second: DarkSwordman_Death_21
+  - first:
+      213: 2473059977662714222
+    second: DarkSwordman_Death_22
+  - first:
+      213: -9195221598158457044
+    second: DarkSwordman_Death_23
+  - first:
+      213: -4875503494952578371
+    second: DarkSwordman_Death_24
+  - first:
+      213: -4881874880131374844
+    second: DarkSwordman_Death_25
+  - first:
+      213: -312420916256930227
+    second: DarkSwordman_Death_26
+  - first:
+      213: 1581442067187760319
+    second: DarkSwordman_Death_27
+  - first:
+      213: -6322245042947764235
+    second: DarkSwordman_Death_28
+  - first:
+      213: -7542963715032885796
+    second: DarkSwordman_Death_29
+  - first:
+      213: -1560240972125241772
+    second: DarkSwordman_Death_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DarkSwordman_Death_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1006
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a651a3b34a4fb80800000000000000
+      internalID: -8361878033835660646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1006
+        width: 87
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf453d377004c0a0800000000000000
+      internalID: -6862359420077781053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_2
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1006
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49ea58bb13eed860800000000000000
+      internalID: 7556726932970858828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_3
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1006
+        width: 103
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d797fcc903353e930800000000000000
+      internalID: 4171269148129589629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1006
+        width: 103
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9fcd4de651aba0800000000000000
+      internalID: -6079482444760769326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 766
+        width: 102
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f70168bb982b980800000000000000
+      internalID: -8524599706157809835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 766
+        width: 103
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58a5e04aae310a60800000000000000
+      internalID: 7638455343951226974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 766
+        width: 102
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7777036473c8ab0800000000000000
+      internalID: -5004564311315089469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 766
+        width: 103
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517eba6aef828c990800000000000000
+      internalID: -7365592116381358315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_9
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 749
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d816ae2d50a24d0800000000000000
+      internalID: -3158705785213448921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 484
+        width: 202
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1ada6d12f7e3800800000000000000
+      internalID: 594051984171835833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 484
+        width: 217
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c274110b3b4b1c6e0800000000000000
+      internalID: -1818974090634901716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_12
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 487
+        width: 217
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a462ad3f028c22f0800000000000000
+      internalID: -996278415585549147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_13
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 634
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f54ade9788d03f80800000000000000
+      internalID: -8128759250406455819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 508
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f627d0e9fd4cc350800000000000000
+      internalID: 6038286936011384566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 508
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c81752416c310a20800000000000000
+      internalID: 3026766812992182471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_16
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 484
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ed3de3b2cbb260800000000000000
+      internalID: 7114494114397022353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 259
+        width: 153
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da3b2d417e27d80800000000000000
+      internalID: -8254281090396345054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 398
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed98f0fdcc2bb1d20800000000000000
+      internalID: 3250388149063354846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 400
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601e7eafdec637c20800000000000000
+      internalID: 3203023529363104006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 397
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dae84b0def00160800000000000000
+      internalID: 6989866794014911890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 265
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfddc061f6e1168f0800000000000000
+      internalID: -549124217102344709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 347
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6152d462f2125220800000000000000
+      internalID: 2473059977662714222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 9
+        width: 197
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f3c2cca2046080800000000000000
+      internalID: -9195221598158457044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 289
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db21d22276bb65cb0800000000000000
+      internalID: -4875503494952578371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_25
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 340
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401eddb69a8104cb0800000000000000
+      internalID: -4881874880131374844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_26
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 292
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d468a1af4de0aabf0800000000000000
+      internalID: -312420916256930227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_27
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 295
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcf5976e2962f510800000000000000
+      internalID: 1581442067187760319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 283
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffcf1051afd248a0800000000000000
+      internalID: -6322245042947764235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_29
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 71
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5ddcb2772025790800000000000000
+      internalID: -7542963715032885796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSwordman_Death_30
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 95
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef6743a19e85ae0800000000000000
+      internalID: -1560240972125241772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DarkSwordman_Death_0: -8361878033835660646
+      DarkSwordman_Death_1: -6862359420077781053
+      DarkSwordman_Death_10: 594051984171835833
+      DarkSwordman_Death_11: -1818974090634901716
+      DarkSwordman_Death_12: -996278415585549147
+      DarkSwordman_Death_13: -8128759250406455819
+      DarkSwordman_Death_14: 6038286936011384566
+      DarkSwordman_Death_15: 3026766812992182471
+      DarkSwordman_Death_16: 7114494114397022353
+      DarkSwordman_Death_17: -8254281090396345054
+      DarkSwordman_Death_18: 3250388149063354846
+      DarkSwordman_Death_19: 3203023529363104006
+      DarkSwordman_Death_2: 7556726932970858828
+      DarkSwordman_Death_20: 6989866794014911890
+      DarkSwordman_Death_21: -549124217102344709
+      DarkSwordman_Death_22: 2473059977662714222
+      DarkSwordman_Death_23: -9195221598158457044
+      DarkSwordman_Death_24: -4875503494952578371
+      DarkSwordman_Death_25: -4881874880131374844
+      DarkSwordman_Death_26: -312420916256930227
+      DarkSwordman_Death_27: 1581442067187760319
+      DarkSwordman_Death_28: -6322245042947764235
+      DarkSwordman_Death_29: -7542963715032885796
+      DarkSwordman_Death_3: 4171269148129589629
+      DarkSwordman_Death_30: -1560240972125241772
+      DarkSwordman_Death_4: -6079482444760769326
+      DarkSwordman_Death_5: -8524599706157809835
+      DarkSwordman_Death_6: 7638455343951226974
+      DarkSwordman_Death_7: -5004564311315089469
+      DarkSwordman_Death_8: -7365592116381358315
+      DarkSwordman_Death_9: -3158705785213448921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

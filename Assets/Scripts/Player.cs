@@ -22,7 +22,7 @@ public class Player : MonoBehaviour {
     }
 
     private void GameInput_OnAttackAction(object sender,System.EventArgs e) {
-        Debug.Log("ATTACKKKKK");
+        PlayerAnimation.Instance.HandleAttackAnimation();
     }
 
     private void GameInput_OnDashAction(object sender,System.EventArgs e) {
@@ -30,16 +30,24 @@ public class Player : MonoBehaviour {
     }
 
     private void Update() {
-        HandleMovement();
-    }
-
-    private void HandleMovement() {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x,inputVector.y,0f);
+        HandleMovement(moveDir);
+        PlayerAnimation.Instance.HandleRunAnimation(moveDir);
+    }
+
+    private void HandleMovement(Vector3 moveDir) {
+
 
         float moveDistance = moveSpeed * Time.deltaTime;
         if(canMove) {
             transform.position += moveDir * moveDistance;
+            if(moveDir.x < 0f) {
+                transform.localScale = new Vector3(-1,1,1);
+            }
+            else if(moveDir.x > 0f) {
+                transform.localScale = new Vector3(1,1,1);
+            }
         }
     }
     private void HandleDash() {
