@@ -2,35 +2,55 @@ using UnityEngine;
 using System.Collections;
 
 public class EnemySpawner : MonoBehaviour {
-    [SerializeField] float spawnRate = 1;
-    [SerializeField] GameObject enemyPrefab;
+
+    [Header("Spawner Settings")]
+    [SerializeField] float spawnRate = 100;
+    [SerializeField] int maxEnemies;
     [SerializeField] GameObject player;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+
+    [SerializeField] GameObject enemyPrefab;
     void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
         StartCoroutine(SpawnTimer());
     }
 
-    public void SpawnPrefabAtRuntime() {
-        Vector2 center = player.transform.position;
 
-        float randomX = Random.Range(center.x + 4,center.x - 4);
-        float randomY = Random.Range(center.y + 4,center.y - 4);
+    public void SpawnPrefabAtRuntime(GameObject objectToSpawn) {
 
-        Vector2 spawnPosition = new Vector2(randomX,randomY);
+        Vector2 spawnPosition = SpawnOnRectEdge(player.transform.position,4);
 
-        Instantiate(enemyPrefab,spawnPosition,Quaternion.identity);
+        Instantiate(objectToSpawn,spawnPosition,Quaternion.identity);
     }
 
     IEnumerator SpawnTimer() {
 
-        Debug.Log("Spawn start");
-        yield return new WaitForSeconds(2f);
-        Debug.Log("Spawned");
-        SpawnPrefabAtRuntime();
+        while(true) {
+            int currentEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+
+            yield return new WaitForSeconds(SpawnRateCalculator(spawnRate));
+            if(currentEnemies < maxEnemies) {
+                SpawnPrefabAtRuntime(enemyPrefab);
+            }
+        }
+    }
+
+
+    Vector2 SpawnOnRectEdge(Vector2 center,float distanceFromCenter) {
+        int edge = Random.Range(0,4);
+        switch(edge) {
+            case 0:
+            return new Vector2(Random.Range(center.x - distanceFromCenter,center.x + distanceFromCenter),center.y + distanceFromCenter);
+            case 1:
+            return new Vector2(Random.Range(center.x - distanceFromCenter,center.x + distanceFromCenter),center.y - distanceFromCenter);
+            case 2:
+            return new Vector2(center.x - distanceFromCenter,Random.Range(center.y - distanceFromCenter,center.y + distanceFromCenter));
+            default:
+            return new Vector2(center.x + distanceFromCenter,Random.Range(center.y - distanceFromCenter,center.y + distanceFromCenter));
+        }
+    }
+
+    float SpawnRateCalculator(float rate) {
+        return 100 / rate;
     }
 }
+
