@@ -38,4 +38,10 @@ public class GameInput : MonoBehaviour {
         inputVector = inputVector.normalized;
         return inputVector;
     }
+
+    public Vector3 GetMoveDir() {
+        Vector2 inputVector = GetMovementVectorNormalized();
+        return new Vector3(inputVector.x,inputVector.y,0f);
+    }
+
 }

@@ -10,7 +10,13 @@ public class Player : MonoBehaviour {
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float dashDistance = 100f;
 
+    [Header("Attacks")]
+    [SerializeField] private float attackRange = 50f;
+    [SerializeField] private LayerMask enemiesLayerMask;
+
+
     private bool canMove = true;
+    private Vector2 lastMoveDir;
 
     private void Awake() {
         Instance = this;
@@ -23,6 +29,7 @@ public class Player : MonoBehaviour {
 
     private void GameInput_OnAttackAction(object sender,System.EventArgs e) {
         PlayerAnimation.Instance.HandleAttackAnimation();
+        Attack();
     }
 
     private void GameInput_OnDashAction(object sender,System.EventArgs e) {
@@ -30,10 +37,12 @@ public class Player : MonoBehaviour {
     }
 
     private void Update() {
-        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector3 moveDir = new Vector3(inputVector.x,inputVector.y,0f);
+        Vector3 moveDir = GameInput.Instance.GetMoveDir();
         HandleMovement(moveDir);
         PlayerAnimation.Instance.HandleRunAnimation(moveDir);
+
+
+
     }
 
     private void HandleMovement(Vector3 moveDir) {
@@ -49,13 +58,35 @@ public class Player : MonoBehaviour {
                 transform.localScale = new Vector3(1,1,1);
             }
         }
+
+
+
+        if(moveDir != Vector3.zero) {
+            lastMoveDir = moveDir;
+        }
     }
     private void HandleDash() {
-        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector3 moveDir = new Vector3(inputVector.x,inputVector.y,0f);
+        Vector3 moveDir = GameInput.Instance.GetMoveDir();
 
         if(canMove) {
             transform.position += moveDir * (dashDistance * Time.deltaTime);
         }
     }
+
+    private void Attack() {
+        //Testing Attack raycast
+        Vector2 origin = transform.position;
+        RaycastHit2D hit = Physics2D.Raycast(origin,lastMoveDir,attackRange,enemiesLayerMask);
+
+        Debug.DrawRay(origin,lastMoveDir * attackRange,Color.green);
+        if(hit.collider != null) {
+
+            Debug.Log("Test");
+
+            Debug.Log(hit.collider);
+
+        }
+    }
+
+
 }

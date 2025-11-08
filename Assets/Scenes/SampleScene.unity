@@ -445,6 +445,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1268204128044110311, guid: 181c2a0917486a144b803dfccecabfbf, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7263780731626351189, guid: 181c2a0917486a144b803dfccecabfbf, type: 3}
       propertyPath: m_Name
       value: Player
@@ -493,6 +497,14 @@ PrefabInstance:
       propertyPath: gameInput
       value: 
       objectReference: {fileID: 883717709}
+    - target: {fileID: 8600121731491344730, guid: 181c2a0917486a144b803dfccecabfbf, type: 3}
+      propertyPath: attackRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600121731491344730, guid: 181c2a0917486a144b803dfccecabfbf, type: 3}
+      propertyPath: enemiesLayerMask.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
