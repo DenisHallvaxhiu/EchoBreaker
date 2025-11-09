@@ -92,6 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4b04ce8ce3048c47947357b26cc3027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkeletonSoldier
+  maxHealth: 2
+  iFrameTime: 0.2
 --- !u!1 &8475649331342078051
 GameObject:
   m_ObjectHideFlags: 0

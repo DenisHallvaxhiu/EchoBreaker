@@ -77,8 +77,12 @@ public class Player : MonoBehaviour {
         //Testing Attack raycast
         Vector2 origin = transform.position;
         RaycastHit2D hit = Physics2D.Raycast(origin,lastMoveDir,attackRange,enemiesLayerMask);
-        if(hit.collider != null) {
-            SkeletonSoldier.Instance.OnDamage();
+
+        if(hit.collider == null) return;
+
+        if(hit.collider.TryGetComponent<IDamageable>(out var damageable)) {
+            damageable.OnDamage(1);
+            return;
         }
     }
 

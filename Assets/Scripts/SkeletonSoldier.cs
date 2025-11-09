@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-public class SkeletonSoldier : MonoBehaviour {
+public class SkeletonSoldier : MonoBehaviour, IDamageable {
 
     [Header("SkeletonSolder Stats")]
     [SerializeField] private float maxHealth = 2f;
