@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
 
     [Header("Attacks")]
     [SerializeField] private float attackRange = 50f;
+    [SerializeField] private float attackPerSecond = 1;
+    private float nextAttackTime = 0f;
     [SerializeField] private LayerMask enemiesLayerMask;
 
 
@@ -28,8 +30,7 @@ public class Player : MonoBehaviour {
     }
 
     private void GameInput_OnAttackAction(object sender,System.EventArgs e) {
-        PlayerAnimation.Instance.HandleAttackAnimation();
-        Attack();
+        TryAttack();
     }
 
     private void GameInput_OnDashAction(object sender,System.EventArgs e) {
@@ -59,8 +60,6 @@ public class Player : MonoBehaviour {
             }
         }
 
-
-
         if(moveDir != Vector3.zero) {
             lastMoveDir = moveDir;
         }
@@ -71,6 +70,16 @@ public class Player : MonoBehaviour {
         if(canMove) {
             transform.position += moveDir * (dashDistance * Time.deltaTime);
         }
+    }
+
+    private void TryAttack() {
+        if(Time.time < nextAttackTime) {
+            return;
+        }
+
+        Attack();
+        PlayerAnimation.Instance.HandleAttackAnimation();
+        nextAttackTime = Time.time + (1f / attackPerSecond);
     }
 
     private void Attack() {
@@ -85,6 +94,5 @@ public class Player : MonoBehaviour {
             return;
         }
     }
-
 
 }

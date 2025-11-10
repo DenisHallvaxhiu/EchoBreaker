@@ -16,12 +16,13 @@ public class Enemies_Visual_Animation : MonoBehaviour {
         Instance = this;
     }
 
-    public void HandleWalkAnimation(bool condition) {
-        if(condition) {
-            enemyAnimator.SetBool(isWalking,true);
-        }
-        else {
-            enemyAnimator.SetBool(isWalking,false);
-        }
+    public void HandleHurtAnimation() {
+        enemyAnimator.SetTrigger(isHurt);
     }
+
+    public void HandleDeathAnimation() {
+        enemyAnimator.SetTrigger(isDead);
+    }
+
+
 }

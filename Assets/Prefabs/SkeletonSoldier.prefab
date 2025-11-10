@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6835402107699534395}
   - component: {fileID: -1433324734319823889}
   - component: {fileID: 122235676351396981}
+  - component: {fileID: 8440632966418475630}
   m_Layer: 10
   m_Name: SkeletonSoldier
   m_TagString: Enemy
@@ -94,6 +95,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkeletonSoldier
   maxHealth: 2
   iFrameTime: 0.2
+  moveSpeed: 1
+--- !u!114 &8440632966418475630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236555096836938567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f738b1256e3171408e2e5752e240902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &8475649331342078051
 GameObject:
   m_ObjectHideFlags: 0

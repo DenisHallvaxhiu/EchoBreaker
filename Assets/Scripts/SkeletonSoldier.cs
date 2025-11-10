@@ -3,9 +3,12 @@ using UnityEngine;
 
 public class SkeletonSoldier : MonoBehaviour, IDamageable {
 
+    public static SkeletonSoldier Instance { get; private set; }
+
     [Header("SkeletonSolder Stats")]
     [SerializeField] private float maxHealth = 2f;
     [SerializeField] private float iFrameTime = 0.2f;
+    [SerializeField] private float moveSpeed = 1f;
 
     //Enemies_Visual_Animation animation;
 
@@ -13,6 +16,7 @@ public class SkeletonSoldier : MonoBehaviour, IDamageable {
     bool invulnerable;
 
     private void Awake() {
+        Instance = this;
         currentHealth = maxHealth;
     }
 
@@ -28,10 +32,13 @@ public class SkeletonSoldier : MonoBehaviour, IDamageable {
         Debug.Log($"[{name}] HP: {currentHealth}");
 
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0) {
+            Enemies_Visual_Animation.Instance.HandleDeathAnimation();
             Die();
+        }
         else {
             if(iFrameTime > 0) {
+                Enemies_Visual_Animation.Instance.HandleHurtAnimation();
                 StartCoroutine(IFrames());
             }
         }
@@ -48,5 +55,9 @@ public class SkeletonSoldier : MonoBehaviour, IDamageable {
 
         yield return new WaitForSeconds(iFrameTime);
         invulnerable = false;
+    }
+
+    public float GetMoveSpeed() {
+        return moveSpeed;
     }
 }
