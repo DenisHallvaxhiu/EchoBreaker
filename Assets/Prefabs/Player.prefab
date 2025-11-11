@@ -50,6 +50,16 @@ MonoBehaviour:
   gameInput: {fileID: 0}
   moveSpeed: 7
   dashDistance: 100
+  attackRange: 50
+  attackPerSecond: 1
+  attackHitDelay: 0.12
+  attackRecover: 0.08
+  enemiesLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  showConeGizmo: 1
+  gizmoConeAngle: 90
+  gizmoSegments: 16
 --- !u!61 &6835113835029856310
 BoxCollider2D:
   m_ObjectHideFlags: 0
